@@ -1,19 +1,20 @@
 [![QQ Group](https://img.shields.io/badge/QQ%20Group-862401307-red.svg)]()
-# JPush Flutter Plugin
+# JPush Flutter Plugin（Google Play）
+
+### 说明
+
+该版本 fork 自 [极光推送官方 jpush-flutter-plugin](https://github.com/jpush/jpush-flutter-plugin) ，基于 `v0.3.0` 版本上适配 **Google Play**
 
 ### 安装
 
 在工程 pubspec.yaml 中加入 dependencies
 
 ```yaml
-dependencies:
-  jpush_flutter: 0.3.0
-  
 //github   
 dependencies:
   jmessage_flutter:
     git:
-      url: git://github.com/jpush/jmessage-flutter-plugin.git
+      url: git@github.com:simon-mao/jpush-flutter-plugin.git
       ref: master
 ```
 
