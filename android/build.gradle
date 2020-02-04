@@ -42,7 +42,7 @@ dependencies {
 
     // 从官方下载包替换
     implementation 'cn.jiguang.sdk:jpush:3.5.4'
-    implementation 'cn.jiguang.sdk:jcore:2.2.6'
-    compileOnly files('libs/jpush-android-3.5.4.jar')
-    compileOnly files('libs/jcore-android-2.2.6.jar')
+    implementation 'cn.jiguang.sdk:jcore:2.2.8'
+    compileOnly files('libs/jpush-android-3.5.4-google_play.jar')
+    compileOnly files('libs/jcore-android-2.2.8-google_play.jar')
 }
